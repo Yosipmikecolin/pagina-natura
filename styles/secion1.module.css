@@ -1,0 +1,21 @@
+.container {
+  overflow: hidden;
+}
+
+.contenedor_titulo {
+  display: flex;
+  justify-content: center;
+}
+
+.parrafo {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+@media (max-width: 800px) {
+  .parrafo {
+    width: 100%;
+  }
+}
